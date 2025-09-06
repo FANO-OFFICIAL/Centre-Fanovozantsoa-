@@ -1,7 +1,10 @@
 baseURL = "https://fano-official.github.io/Centre-Fanovozantsoa-/"
 languageCode = "fr-fr"
 title = "Centre Fanovozantsoa"
-theme = "PaperMod"
+
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
 
 [params]
   defaultTheme = "auto"
