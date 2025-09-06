@@ -3,9 +3,13 @@ backend:
   repo: FANO-OFFICIAL/Centre-Fanovozantsoa-
   branch: main
   auth_scope: repo
+  login:
+    client_id: ${{ secrets.CLIENT_ID }}
+    client_secret: ${{ secrets.CLIENT_SECRET }}
+    redirect_url: "https://fano-official.github.io/Centre-Fanovozantsoa-/admin/"
 
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: static/images
+public_folder: /images
 
 collections:
   - name: "accueil"

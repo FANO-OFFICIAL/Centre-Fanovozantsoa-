@@ -49,3 +49,5 @@ build/
 
 # Hugo cache
 .hugo_build.lock
+
+/config.yml
