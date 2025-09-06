@@ -2,13 +2,10 @@ backend:
   name: github
   repo: FANO-OFFICIAL/Centre-Fanovozantsoa-
   branch: main
-  base_url: https://api.github.com
-  auth_endpoint: /oauth/authorize
-  # Add your GitHub OAuth App Client ID here
-  # client_id: YOUR_GITHUB_OAUTH_CLIENT_ID
+  auth_scope: repo
 
-media_folder: static/images
-public_folder: /images
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
 
 collections:
   - name: "accueil"
