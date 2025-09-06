@@ -4,6 +4,8 @@ backend:
   branch: main
   base_url: https://api.github.com
   auth_endpoint: /oauth/authorize
+  # Add your GitHub OAuth App Client ID here
+  # client_id: YOUR_GITHUB_OAUTH_CLIENT_ID
 
 media_folder: static/images
 public_folder: /images
