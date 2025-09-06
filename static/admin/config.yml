@@ -1,0 +1,55 @@
+backend:
+  name: github
+  repo: fanoentreprise/centrefanovozantsoa
+  branch: main
+  base_url: https://api.github.com
+  auth_endpoint: /authenticate
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: "accueil"
+    label: "Accueil"
+    folder: "content/accueil"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Contenu", name: "body", widget: "markdown" }
+
+  - name: "apropos"
+    label: "À propos"
+    folder: "content/apropos"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Contenu", name: "body", widget: "markdown" }
+
+  - name: "actions"
+    label: "Actions"
+    folder: "content/actions"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Contenu", name: "body", widget: "markdown" }
+
+  - name: "contact"
+    label: "Contact"
+    folder: "content/contact"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Contenu", name: "body", widget: "markdown" }
+
+  - name: "dons"
+    label: "Dons"
+    folder: "content/dons"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Contenu", name: "body", widget: "markdown" }
