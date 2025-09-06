@@ -3,8 +3,7 @@ backend:
   repo: FANO-OFFICIAL/Centre-Fanovozantsoa-
   branch: main
   base_url: https://api.github.com
-  site_domain: fano-official.github.io
-  auth_endpoint: /authenticate
+  auth_endpoint: /oauth/authorize
 
 media_folder: static/images
 public_folder: /images
