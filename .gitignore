@@ -51,3 +51,4 @@ build/
 .hugo_build.lock
 
 /config.yml
+/static/admin/config.yml
