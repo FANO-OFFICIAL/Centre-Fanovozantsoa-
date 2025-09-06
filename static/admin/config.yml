@@ -4,8 +4,8 @@ backend:
   branch: main
   auth_scope: repo
   login:
-    client_id: ${{ secrets.CLIENT_ID }}
-    client_secret: ${{ secrets.CLIENT_SECRET }}
+    client_id: "Ov23liK0S2ecPW0W72aa"
+    client_secret: "ad9e940f7b2da6658692e63523518f703af690d2"
     redirect_url: "https://fano-official.github.io/Centre-Fanovozantsoa-/admin/"
 
 media_folder: static/images
