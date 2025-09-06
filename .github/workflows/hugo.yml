@@ -29,6 +29,12 @@ jobs:
           hugo-version: "latest"
           extended: true
 
+      - name: Initialize Hugo modules
+        run: hugo mod init github.com/FANO-OFFICIAL/Centre-Fanovozantsoa-
+
+      - name: Get Hugo modules
+        run: hugo mod get
+
       - name: Build
         run: hugo --minify
 
