@@ -1,4 +1,40 @@
-'baseURL = "http://example.org/"'  
-'languageCode = "en-us"'  
-'title = "Centre Fanovozantsoa"'  
-'theme = "PaperMod"' 
+baseURL = "https://fano-official.github.io/Centre-Fanovozantsoa-/"
+languageCode = "fr-fr"
+title = "Centre Fanovozantsoa"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  showtoc = true
+  tocopen = false
+
+[menu]
+  [[menu.main]]
+    identifier = "accueil"
+    name = "Accueil"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "apropos"
+    name = "À propos"
+    url = "/apropos"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "actions"
+    name = "Actions"
+    url = "/actions"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "dons"
+    name = "Dons"
+    url = "/dons"
+    weight = 50
